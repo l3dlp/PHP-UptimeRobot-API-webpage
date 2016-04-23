@@ -59,10 +59,15 @@ $print = getOverall($results);
         </div>
     </div>
       
-	<div id="footer" class="transparent">
-		<center>Servers are monitored by<a href="https://uptimerobot.com/" target="_blank" class="uptime-logo"><img src="gfx/uptime-logo.png" border="0" /></a><small>Code used here is on <a href="https://github.com/l3dlp/PHP-UptimeRobot-Dashboard" target="_blank">GitHub</a>.<br/>Nice backgrounds come from <a href="https://unsplash.com/" target="_blank">Unsplash</a></small>
-		</center>
-	</div>
+    <div id="footer" class="transparent">
+        <center>
+            Servers are monitored by<a href="https://uptimerobot.com/" target="_blank" class="uptime-logo"><img src="gfx/uptime-logo.png" border="0" /></a>
+            <small>
+                Code used here is on <a href="https://github.com/l3dlp/PHP-UptimeRobot-Dashboard" target="_blank">GitHub</a>.
+                <br/>Nice backgrounds come from <a href="https://unsplash.com/" target="_blank">Unsplash</a>
+            </small>
+        </center>
+    </div>
 
 </body>
 </html>
