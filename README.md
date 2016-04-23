@@ -27,3 +27,5 @@ cd uptime/
 * Forked a project shared by Adam Matthews https://github.com/adammatthews/PHP-UptimeRobot-Dashboard
 * Adding missing config.php file, remove all deps, made some CSS improvements and made it ready-to-use
 
+## License
+MIT License
