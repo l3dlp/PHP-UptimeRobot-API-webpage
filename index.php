@@ -1,19 +1,7 @@
 <?php
 
   require_once('lib/init.php');
-
-/******* MANAGE BACKGROUNDS */
-
-  // array of backgrounds filenames
-  $bg = array('https://unsplash.imgix.net/reserve/QGXfT1CkRpmvlwtPpgul_IMG_0558.jpg?q=75&fm=jpg&s=25c25f99c3faba09b92aacf40a9e9de5', 'https://unsplash.imgix.net/uploads/141223808515744db9995/3361b5e1?q=75&fm=jpg&s=04607c34357b70db74394f2fd8a6db7f', 'https://unsplash.imgix.net/reserve/z7R1rjT6RhmZdqWbM5hg_R0001139.jpg?q=75&fm=jpg&s=26fc77c65835d1d8e2bcffb8b91a1b93');
-
-  // generate random number size of the array
-  $i = rand(0, count($bg)-1);
-  
-  // set variable equal to which random filename was chosen
-  $selectedBg = "$bg[$i]";
-
-/* MANAGE BACKGROUNDS *******/
+  $selectedBg = unsplash();
 
 ?>
 <!DOCTYPE html>
